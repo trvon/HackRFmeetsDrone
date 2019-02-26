@@ -5,7 +5,9 @@ To use a HackRF to capture the communication between a reciever and quad copter 
 Based on this [project](https://ossmann.blogspot.com/2013/06/hackrf-lego-car.html)
 
 ## Abstract
-Our project for wireless security attempts to build upon the hackrf and lego car project. The lego car project takes a remote controlled car and uses the hackRF to capture each control signal and then replays the signal to control the remote control car. In our project we will utilize a custom quadcopter with generic a firmware to attempt the same feat. Unlike the remote control car project, we will strive to achieve a few more goals prior to attempting to demostrate the ability to control the quadcopter with the hackRF. 
+Our Wireless Security project will attempt to build upon and adapt the hackRF and lego car project. In the lego car project, "MossMan" takes a remote controlled car and uses the hackRF to capture each control signal from the provided controller. "MossMan" then replays the capture signal to the remote control car, proving that he can control it with the replayed signal. 
+
+In our project we will utilize a custom quadcopter with generic a firmware and reciever programming files to attempt a similar feat. Unlike the remote control car project, we will strive to achieve a few more goals prior to attempting to demostrate the ability to control the quadcopter with the hackRF. 
 
 We will attempt to show:
 - If there is any steps taken to authenticate the quadcopter and controller?
@@ -13,6 +15,8 @@ We will attempt to show:
 - If there isn't, is authentication between quadcopter and controller available anywhere?
 - What protocols are used in the quadcopters communication framework?
 - What is the overhead of implementing such framework?
+
+Given the pace in which we are able to program the hackRF and decode the signals being sent from the reciever to quadcpter, we plan to gain an understanding of how the reciever communicates with the quadcopter reciever and potentially compare how the implementation of authentication and/or secure communication effects how well the reciever is able to transmit to quadcopter. 
 
 ### Things to think about
 What are potentially end goals?
