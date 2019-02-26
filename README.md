@@ -5,6 +5,10 @@ To use a HackRF to capture the communication between a reciever and quad copter 
 Based on this [project](https://ossmann.blogspot.com/2013/06/hackrf-lego-car.html)
 
 ## Abstract
+
+### Team Members: Shail Patel, Sneha Rangari, Ruchira Pokhriya
+
+### Topic
 Our Wireless Security project will attempt to build upon and adapt the hackRF and lego car project. In the lego car project, "MossMan" takes a remote controlled car and uses the hackRF to capture each control signal from the provided controller. "MossMan" then replays the capture signal to the remote control car, proving that he can control it with the replayed signal. 
 
 In our project we will utilize a custom quadcopter with generic a firmware and reciever programming files to attempt a similar feat. Unlike the remote control car project, we will strive to achieve a few more goals prior to attempting to demostrate the ability to control the quadcopter with the hackRF. 
@@ -18,16 +22,21 @@ We will attempt to show:
 
 Given the pace in which we are able to program the hackRF and decode the signals being sent from the reciever to quadcpter, we plan to gain an understanding of how the reciever communicates with the quadcopter reciever and potentially compare how the implementation of authentication and/or secure communication effects how well the reciever is able to transmit to quadcopter. 
 
-### Things to think about
-What are potentially end goals?
-How will we accomplish this feat?
-What will our meeting up schedule look like
+### Game Plan
+- [ ] Learn how to use hackRF
+- [ ] View and capture handshake between quadcopter and controller
+- [ ] Determine if any authentication methods are implemented
+- [ ] View if there is any publically implemented authentication measures in drones
+- [ ] Compare and contrast found security protocols
+- [ ] Determine the viability of controlling the drone through the hackRF
+- [ ] Control the drone through the hackRF
 
-## Things to look into
-- [ ] Steps taken to authenticate quadcopter and controller?
-- [ ] What are methods of authentication implemented?
-- [ ] What does the connection handshake consist of?
-- [ ] Compare and contrast protocols used and drones and the security they implement 
+### Expected Time Frame
+- 6 to 7 Weeks 
+
+### Deliverables
+- Paper
+- Demo: Working Communication between drone and hackRF 
 
 ## Useful Information
 HackFR frequency range is 1Mhz to 6GHz and the quadcopter [antenna](https://fpv-flightclub.com/products/lumenier-axii-stubby-5-8ghz-antenna-rhcp/) frequency is 5.8 GHZ.
