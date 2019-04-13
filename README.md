@@ -44,9 +44,16 @@ HackFR frequency range is 1Mhz to 6GHz and the quadcopter [antenna](https://fpv-
 ## Helpful Sources Found
 
 ### Protocols
+- [RC Car Reverse Engineering](https://habr.com/en/post/325894/.it/) - Needs Google Translate
+- [SDR spectrum analyze](https://majek.sh/en/rtl2832u-spectrum-analyzer-part-2/)\
 - https://hackaday.com/2016/06/28/reverse-engineering-quadcopter-protocols/
 - http://learningrc.com/rc-communication-protocols/
 - http://www.jimhung.co.uk/?p=1424
+- [Beginner's Guide to RC](https://www.rcgroups.com/forums/showthread.php?2301242-The-Beginners-Guide-to-RC-Protocols)
+- [Telemetry Data](https://www.rcgroups.com/forums/showthread.php?2245978-FrSky-S-Port-telemetry-library-easy-to-use-and-configurable)
+- [FrSky Telemetry](http://ardupilot.org/copter/docs/common-frsky-telemetry.html)
+- [FrSky Wiki](http://wiki.flexinnovations.com/wiki/Aura/FrSkyUse)
+
 ### HackRF and Quadcopter
 - https://www.rtl-sdr.com/hackrf-controlling-quadcopter/
 - https://www.rcgroups.com/forums/showthread.php?2367199-Controll-Hubsan-X4-with-a-SDR-and-GnuRadio
