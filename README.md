@@ -6,7 +6,7 @@ Based on this [project](https://ossmann.blogspot.com/2013/06/hackrf-lego-car.htm
 
 ## Abstract
 ### Team Members:
-Shail Patel, Sneha Rangari, Ruchira Pokhriya, Trevon Williams
+Shail Patel, Sneha Rangari, Ruchira Pokhriyal, Trevon Williams
 
 ### Topic
 Our Wireless Security project will attempt to build upon and adapt the hackRF and lego car project. In the lego car project, "MossMan" takes a remote controlled car and uses the hackRF to capture each control signal from the provided controller. "MossMan" then replays the capture signal to the remote control car, proving that he can control it with the replayed signal. 
